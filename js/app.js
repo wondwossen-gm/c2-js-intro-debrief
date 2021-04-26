@@ -34,18 +34,20 @@ for(let i = 0; i < myArray.length; i++){
         console.log('The price of Shoes is $50.00.');
         break;
     case 'Jeans':
-        console.log('The price of Shoes is $25.00.');
+        console.log('The price of Jeans is $25.00.');
         break;
     case 'Hat':
-        console.log('The price of Shoes is $12.00.');
+        console.log('The price of Hat is $12.00.');
         break;
     case 'Socks':
-        console.log('The price of Shoes is $2.00.');
+        console.log('The price of Socks is $2.00.');
         break;
+    default:
+        console.log('Invalid item')
  }
  /*************************************** */
  //console.log((Math.floor(Math.random()) * (100 - 50)));
-    
+
  console.log(Math.floor(Math.random() * (100-50)  +50));
  
  
